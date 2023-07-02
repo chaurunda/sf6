@@ -1,0 +1,89 @@
+{
+  "LIGHTS": [
+    "D+LK, LP, LK xx DPF HP",
+    "D+LK, D+LP, LP xx QCF LK+MK - MK, DPF HP",
+    "D+LK, D+LP, D+LP xx QCF QCF K",
+    "D+LK, D+LP xx QCB MK xx QCB QCB K",
+    "LP, MK xx QCB HK, DPF HK",
+    "LP, MK xx QCB HK, QCF QCF K",
+    "LP, MK xx QCF MK, F+MP xx DPF HP",
+    "LP, MK xx QCF MK, F+MP xx QCB KK, DPF HP",
+    "LP, MK xx QCF MK, F+MP xx DPF LP xx QCB QCB K"
+  ],
+  "MEDIUMS": [
+    "MP, D+MP xx DPF LP",
+    "MP, D+MP xx QCF HK",
+    "MP, D+MP xx QCF LK+MK, QCF QCF K",
+
+    "D+MP, MK xx QCF MK, F+MP xx DPF HP",
+    "D+MP, MK xx QCF MK, F+MP xx QCF MK+HK - MK, QCF QCF K",
+    "D+MK xx QCF LK-MK, F+MP xx DPF HP"
+  ],
+  "HEAVIES": [
+    "HP xx QCB HK, DPF HP",
+    "HP xx QCF MK, F+MP xx DPF LP",
+    "HP xx QCF MK, F+MP xx QCF LK-MK, F+MP xx QCB KK, DPF HP",
+    "D+HP xx QCB HK, QCF LK+MK - MK, QCF QCF K",
+    "D+HP xx QCF MK, F+MP xx QCF HK - MK",
+
+    "F+HP xx QCF MK, D+MP xx QCF LK+MK, QCF QCF K",
+    "F+HP xx QCF MK, F+MP xx QCF MK+HK - MK, DPF LP xx QCB QCB K"
+  ],
+  "DRIVE IMPACT": [
+    "DI D+HP xx QCB HK, DPF HP",
+    "DI D+HP xx QCF HK, DPF PP",
+    "DI D+HP xx QCF MK+HK - MK, QCF QCF K"
+  ],
+  "PUNISH COUNTER": [
+    "D+LP PC, D+MK xx DPF HP",
+    "D+MP PC, D+HP xx QCF MK, F+MP xx DPF HP",
+    "D+MP PC, F+MP xx DPF HP",
+    "MP PC, HP xx QCF MK, F+MP xx DPF HP",
+    "D+MK PC xx QCB HK, DPF HP",
+    "D+MK PC xx QCF MK, F+MP xx DPF HP",
+    "QCF MK PC, HP xx QCF MK, F+MP xx DPF HP",
+
+    "HK PC, QCF QCF K",
+    "(CLOSE) HK PC, DPF HP",
+
+    "DI PC D+HP xx QCF MK, F+MP xx DPF HP",
+    "DI PC D+HP xx QCB HK, DPF HP"
+  ],
+  "DRIVE RUSH": [
+    "DR D+LK, MP, D+MP xx DPF HP",
+    "DR D+MK, LP, LK xx DPF LP",
+    "DR MK, MP, D+MP xx DPF HP",
+    "DR MP, D+HP xx QCF MK, F+MP xx DPF HP",
+    "DR F+MK, MP, D+MP xx DPF HP",
+
+    "LP xx DR LP, D+HP xx QCF MK, F+MP xx QCB MK",
+    "D+MK xx DR D+MP, D+HP xx QCF MK, F+MP xx DPF HP",
+    "HP xx DR, F+HP, D+MP xx QCB KK, DPF HP",
+    "D+HP xx QCF MK, F+MP xx DR D+MP, D+HP xx QCF MK, F+MP xx DPF HP"
+  ],
+  "DIVEKICK": [
+    "(AIR) QCB K (spaced), QCF QCF K",
+    "J.MP, (AIR) QCB KK-K, DPF HP",
+    "(AIR) QCB KK-K, DR D+HP xx DPF HP"
+  ],
+  "FENG SHUI ENGINE": [
+    "[...]-MK-HP-HK xx DPF HP",
+    "[...]-MK-HK-HP xx QCF HK, DPF HP",
+    "[...]-MK-HK-HP xx QCF HK, QCF QCF K",
+    "[...]-F+MP-MK-D+HP-J.MP-MK xx QCB K-K",
+    "[...]-F+MP-MK-D+HP-J.MP-MK xx QCB KK-K, DPF HP",
+    "HK xx DR D+MP, D+HP xx QCF MK, F+MP-MK-D+HP-J.MP-MK xx QCB K-K",
+    "HK PC, LVL 2 (HOLD), MP-D+HP-J.MP-MK xx QCB K-K",
+    "[...]-MK-HK-D+HP xx QCF HK, DPF HP (corner)",
+    "[...]-F+MP-MK-D+HP xx J.MP-HP-HK, DPF HP (corner)",
+
+    "(ALT) HP xx LVL 2, HP-HK xx DPF HP"
+  ],
+  "CORNER": [
+    "D+LK, D+LP xx QCF LK+MK, DPF HP",
+    "MP, D+MP xx QCF LK+MK, DPF LP xx QCB QCB K",
+    "(AIR) QCB KK-K, QCF HK, DPF PP",
+    "(AIR) QCB KK-K, DR D+HP xx QCF HK, QCF QCF K",
+    "J.MP xx (AIR) QCB KK-K, QCF MK+HK - MK, QCB QCB K"
+  ]
+}
