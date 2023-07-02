@@ -7,7 +7,7 @@ type PProps = {
 }
 
 const P: FC<PProps> = ({ type }) => {
-  return <PSVG width={32} height={32} className={type} />
+  return <PSVG className={type} />
 }
 
 export default P

@@ -6,11 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --light: #6699ff;
-  --medium: #ffcc66;
-  --heavy: #ff6666;
   --darkGrey: #0c0d11;
-  --lightGrey: #282828;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,38 +14,6 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
-    --light: #6699ff;
-    --medium: #ffcc66;
-    --heavy: #ff6666;
     --darkGrey: #0c0d11;
-    --lightGrey: #282828;
   }
 }
-
-.heavy {
-  color: var(--heavy);
-  fill: currentColor;
-}
-
-.medium {
-  color: var(--medium);
-  fill: currentColor;
-}
-
-.light {
-  color: var(--light);
-  fill: currentColor;
-}
-
-.white {
-  color: aliceblue;
-  fill: currentColor;
-}
-
-.inverted {
-  rotate: 180deg;
-}
-
-/* svg {
-  width: 100%;
-} */

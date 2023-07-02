@@ -4,7 +4,7 @@ import DSVG from "./SVG/D.svg"
 type DProps = {}
 
 const D: FC<DProps> = ({}) => {
-  return <DSVG width={32} height={32} className="white" />
+  return <DSVG className="text-white fill-current" />
 }
 
 export default D

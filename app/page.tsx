@@ -1,3 +1,4 @@
+import ComboBox from "./components/comboBox/ComboBox"
 import B from "./components/inputs/B"
 import D from "./components/inputs/D"
 import DI from "./components/inputs/DI"
@@ -23,35 +24,44 @@ import P from "./components/inputs/base/P"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <LK />
-        <MK></MK>
-        <HK></HK>
-        <K></K>
+    <main className="min-h-screen p-24">
+      <div className="flex  flex-col items-center justify-between">
+        <div className="mb-32 grid text-center lg:mb-0 grid-cols-4 lg:text-left">
+          <LK />
+          <MK></MK>
+          <HK></HK>
+          <K></K>
 
-        <LP></LP>
-        <MP></MP>
-        <HP></HP>
-        <P></P>
+          <LP></LP>
+          <MP></MP>
+          <HP></HP>
+          <P></P>
 
-        <B></B>
-        <D></D>
-        <F></F>
-        <U></U>
+          <B></B>
+          <D></D>
+          <F></F>
+          <U></U>
 
-        <DI></DI>
-        <DP></DP>
-        <KK></KK>
-        <KKK></KKK>
+          <DI></DI>
+          <DP></DP>
+          <KK></KK>
+          <KKK></KKK>
 
-        <HCB></HCB>
-        <HCF></HCF>
-        <PP></PP>
-        <PPP></PPP>
+          <HCB></HCB>
+          <HCF></HCF>
+          <PP></PP>
+          <PPP></PPP>
 
-        <QCB></QCB>
-        <QCF></QCF>
+          <QCB></QCB>
+          <QCF></QCF>
+        </div>
+      </div>
+      <div>
+        <h2 className="mb-3 fill-current text-text-white fill-current">LIGHTS</h2>
+        <ComboBox>
+          <D></D>+<LP></LP>, <D></D>+<LP></LP>, <DP></DP>
+          <LP></LP>
+        </ComboBox>
       </div>
     </main>
   )

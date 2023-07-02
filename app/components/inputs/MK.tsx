@@ -4,7 +4,7 @@ import K from "./base/K"
 type MKProps = {}
 
 const MK: FC<MKProps> = () => {
-  return <K type="medium" />
+  return <K type="text-medium fill-current" />
 }
 
 export default MK

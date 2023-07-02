@@ -4,7 +4,7 @@ import DISVG from "./SVG/DI.svg"
 type DIProps = {}
 
 const DI: FC<DIProps> = ({}) => {
-  return <DISVG width={32} height={32} className="white" />
+  return <DISVG className="text-white fill-current" />
 }
 
 export default DI

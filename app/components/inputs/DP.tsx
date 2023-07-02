@@ -4,7 +4,7 @@ import DPSVG from "./SVG/DP.svg"
 type DPProps = {}
 
 const DP: FC<DPProps> = ({}) => {
-  return <DPSVG width={32} height={32} />
+  return <DPSVG />
 }
 
 export default DP

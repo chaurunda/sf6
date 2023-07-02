@@ -4,7 +4,7 @@ import K from "./base/K"
 type HKProps = {}
 
 const HK: FC<HKProps> = () => {
-  return <K type="heavy" />
+  return <K type="text-heavy fill-current" />
 }
 
 export default HK

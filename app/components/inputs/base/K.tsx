@@ -7,7 +7,7 @@ type kProps = {
 }
 
 const K: FC<kProps> = ({ type }) => {
-  return <KSVG width={32} height={32} className={type} />
+  return <KSVG className={type} />
 }
 
 export default K

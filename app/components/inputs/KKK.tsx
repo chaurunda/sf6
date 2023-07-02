@@ -4,7 +4,7 @@ import KKKSVG from "./SVG/KKK.svg"
 type KKKProps = {}
 
 const KKK: FC<KKKProps> = ({}) => {
-  return <KKKSVG width={32} height={32} className="white" />
+  return <KKKSVG className="text-white fill-current" />
 }
 
 export default KKK

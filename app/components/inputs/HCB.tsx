@@ -4,7 +4,7 @@ import HCBSVG from "./SVG/HCB.svg"
 type HCBProps = {}
 
 const HCB: FC<HCBProps> = ({}) => {
-  return <HCBSVG width={32} height={32} />
+  return <HCBSVG />
 }
 
 export default HCB

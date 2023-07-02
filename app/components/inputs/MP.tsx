@@ -3,7 +3,7 @@ import P from "./base/P"
 type MPProps = {}
 
 const MP: FC<MPProps> = () => {
-  return <P type="medium" />
+  return <P type="text-medium fill-current" />
 }
 
 export default MP
