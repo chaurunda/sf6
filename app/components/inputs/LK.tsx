@@ -1,9 +1,10 @@
 import { FC } from "react"
-import K from "./SVG/K.svg"
+import K from "./base/K"
+
 type LKProps = {}
 
 const LK: FC<LKProps> = () => {
-  return <K width={32} height={32} className="light" />
+  return <K type="light" />
 }
 
 export default LK

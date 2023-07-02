@@ -41,6 +41,15 @@
   fill: currentColor;
 }
 
-svg {
-  width: 100%;
+.white {
+  color: aliceblue;
+  fill: currentColor;
 }
+
+.inverted {
+  rotate: 180deg;
+}
+
+/* svg {
+  width: 100%;
+} */
