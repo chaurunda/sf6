@@ -1,0 +1,119 @@
+{
+  "hit": [
+    {
+      "title": "LIGHTS",
+      "combos": [
+        "D + LK , LP , LK xx DP HP",
+        "D + LK , D + LP , LP xx QCF LK + MK - MK , DP HP",
+        "D + LK , D + LP , D + LP xx QCF QCF K",
+        "D + LK , D + LP xx QCB MK xx QCB QCB K",
+        "LP , MK xx QCB HK , DP HK",
+        "LP , MK xx QCB HK , QCF QCF K",
+        "LP , MK xx QCF MK , F + MP xx DP HP",
+        "LP , MK xx QCF MK , F + MP xx QCB KK , DP HP",
+        "LP , MK xx QCF MK , F + MP xx DP LP xx QCB QCB K"
+      ]
+    },
+    {
+      "title": "MEDIUMS",
+      "combos": [
+        "MP , D + MP xx DP LP",
+        "MP , D + MP xx QCF HK",
+        "MP , D + MP xx QCF LK + MK , QCF QCF K",
+
+        "D + MP ,  MK xx QCF MK , F + MP xx DP HP",
+        "D + MP , MK xx QCF MK , F + MP xx QCF MK + HK - MK , QCF QCF K",
+        "D + MK xx QCF LK - MK , F + MP xx DP HP"
+      ]
+    },
+    {
+      "title": "HEAVIES",
+      "combos": [
+        "HP xx QCB HK , DP HP",
+        "HP xx QCF MK , F + MP xx DP LP",
+        "HP xx QCF MK , F + MP xx QCF LK - MK , F + MP xx QCB KK , DP HP",
+        "D + HP xx QCB HK , QCF LK + MK - MK , QCF QCF K",
+        "D + HP xx QCF MK , F + MP xx QCF HK - MK",
+
+        "F + HP xx QCF MK , D + MP xx QCF LK + MK , QCF QCF K",
+        "F + HP xx QCF MK , F + MP xx QCF MK + HK - MK , DP LP xx QCB QCB K"
+      ]
+    },
+    {
+      "title": "DRIVE IMPACT",
+      "combos": [
+        "DI D + HP xx QCB HK , DP HP",
+        "DI D + HP xx QCF HK , DP PP",
+        "DI D + HP xx QCF MK + HK - MK , QCF QCF K"
+      ]
+    },
+    {
+      "title": "PUNISH COUNTER",
+      "combos": [
+        "D + LP PC , D + MK xx DP HP",
+        "D + MP PC , D + HP xx QCF MK , F + MP xx DP HP",
+        "D + MP PC , F + MP xx DP HP",
+        "MP PC , HP xx QCF MK , F + MP xx DP HP",
+        "D + MK PC xx QCB HK , DP HP",
+        "D + MK PC xx QCF MK , F + MP xx DP HP",
+        "QCF MK PC , HP xx QCF MK , F + MP xx DP HP",
+
+        "HK PC , QCF QCF K",
+        "(CLOSE) HK PC , DP HP",
+
+        "DI PC D + HP xx QCF MK , F + MP xx DP HP",
+        "DI PC D + HP xx QCB HK , DP HP"
+      ]
+    },
+    {
+      "title": "DRIVE RUSH",
+      "combos": [
+        "DR D + LK , MP , D + MP xx DP HP",
+        "DR D + MK , LP , LK xx DP LP",
+        "DR MK , MP , D + MP xx DP HP",
+        "DR MP , D + HP xx QCF MK , F + MP xx DP HP",
+        "DR F + MK , MP , D + MP xx DP HP",
+
+        "LP xx DR LP , D + HP xx QCF MK , F + MP xx QCB MK",
+        "D + MK xx DR D + MP , D + HP xx QCF MK , F + MP xx DP HP",
+        "HP xx DR , F + HP , D + MP xx QCB KK , DP HP",
+        "D + HP xx QCF MK , F + MP xx DR D + MP , D + HP xx QCF MK , F + MP xx DP HP"
+      ]
+    },
+    {
+      "title": "DIVEKICK",
+      "combos": [
+        "(AIR) QCB K (spaced) , QCF QCF K",
+        "U MP , (AIR) QCB KK - K , DP HP",
+        "(AIR) QCB KK - K , DR D + HP xx DP HP"
+      ]
+    },
+    {
+      "title": "FENG SHUI ENGINE",
+      "combos": [
+        "[...] - MK - HP - HK xx DP HP",
+        "[...] - MK - HK - HP xx QCF HK , DP HP",
+        "[...] - MK - HK - HP xx QCF HK , QCF QCF K",
+        "[...] - F + MP - MK - D + HP - U MP - MK xx QCB K - K",
+        "[...] - F + MP - MK - D + HP - U MP - MK xx QCB KK - K , DP HP",
+        "HK xx DR D + MP , D + HP xx QCF MK , F + MP - MK - D + HP - U MP - MK xx QCB K - K",
+        "HK PC , LVL 2 (HOLD) , MP - D + HP - U MP - MK xx QCB K - K",
+        "[...] - MK - HK - D + HP xx QCF HK , DP HP (corner)",
+        "[...] - F + MP - MK - D + HP xx U MP - HP - HK , DP HP (corner)",
+
+        "(ALT) HP xx LVL 2 , HP - HK xx DP HP"
+      ]
+    },
+    {
+      "title": "CORNER",
+      "combos": [
+        "D + LK , D + LP xx QCF LK + MK , DP HP",
+        "MP , D + MP xx QCF LK + MK , DP LP xx QCB QCB K",
+        "(AIR) QCB KK - K , QCF HK , DP PP",
+        "(AIR) QCB KK - K , DR D + HP xx QCF HK , QCF QCF K",
+        "U MP xx (AIR) QCB KK - K , QCF MK + HK - MK , QCB QCB K"
+      ]
+    }
+  ],
+  "source": [""]
+}
