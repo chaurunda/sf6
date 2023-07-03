@@ -1,4 +1,4 @@
-import ComboBox from "./components/comboBox/ComboBox"
+import Svgloader from "./components/Svgloader"
 import B from "./components/inputs/B"
 import D from "./components/inputs/D"
 import DI from "./components/inputs/DI"
@@ -56,13 +56,7 @@ export default function Home() {
           <QCF></QCF>
         </div>
       </div>
-      <div>
-        <h2 className="mb-3 fill-current text-text-white fill-current">LIGHTS</h2>
-        <ComboBox>
-          <D></D>+<LP></LP>, <D></D>+<LP></LP>, <DP></DP>
-          <LP></LP>
-        </ComboBox>
-      </div>
+      <Svgloader></Svgloader>
     </main>
   )
 }
