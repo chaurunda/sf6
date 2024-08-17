@@ -1,6 +1,15 @@
 {
   "hit": [
     {
+      "title": "BnB",
+      "combos": [
+        "D + LK D + LP D + LP > QCB MK",
+        "(AIR) HK , MP , D MP > QCB MK",
+        "PC DI , MP , MP > QCB MK (midscreen)",
+        "DI , HP > QCB HK , DP HP (corner)"
+      ]
+    },
+    {
       "title": "LIGHTS",
       "combos": [
         "D + LK , LP , LK xx DP HP",
