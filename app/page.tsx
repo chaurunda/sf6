@@ -7,7 +7,7 @@ export default function Home() {
       <Svgloader></Svgloader>
 
       <p className="text-center underline ">
-        <a href="https://github.com/arnaudhuc">Made by Arnaud HUC</a>
+        <a href="https://github.com/chaurunda">Made by Chaurunda</a>
       </p>
     </main>
   )
