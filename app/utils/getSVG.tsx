@@ -26,18 +26,24 @@ export async function getSVG(combo: string) {
   "use server"
   switch (combo) {
     case "B":
+    case "4":
       return <B />
     case "D":
+    case "2":
       return <D />
     case "DI":
       return <DI />
     case "DP":
+    case "623":
       return <DP />
     case "F":
+    case "6":
       return <F />
     case "HCB":
+    case "63214":
       return <HCB />
     case "HCF":
+    case "41236":
       return <HCF />
     case "HK":
       return <HK />
@@ -60,15 +66,21 @@ export async function getSVG(combo: string) {
     case "PPP":
       return <PPP />
     case "QCB":
+    case "214":
       return <QCB />
     case "QCF":
+    case "236":
       return <QCF />
     case "U":
+    case "8":
+    case "j.":
       return <U />
     case "K":
       return <K />
     case "P":
       return <P />
+    case "5":
+      return ""
     default:
       return <span className="mx-1">{combo}</span>
   }

@@ -1,0 +1,39 @@
+{
+  "hit": [
+    {
+      "title": "BnB",
+      "combos": [
+        "5 LP ~ 5 LP > 236 MK",
+        "2 MP / 5 HP > 236 HK",
+        "j. HP / j. HK , 5 HP > 236 HK",
+        "(Punish Counter) DI , 5 HP > 236 HK",
+        "2 LK ~ 2 LP ~ 5 LP > 236 MK",
+        "2 HP , 2 MP > 236 HK",
+        "j. HP / j. HK , 2 HP , 2 MP > 236 HK"
+      ]
+    },
+    {
+      "title": "Opening Strings",
+      "combos": [
+        "any two chainable lights ~ 5 LP > Combo Ender",
+        "any two chainable lights , 5 LK > Combo Ender",
+        "5 LP / 5 MP , 4 MP ~ HK > ...",
+        "5 MP , 5 LK > Combo Ender",
+        "2 HP , 2 MP > Combo Ender"
+      ]
+    },
+    {
+      "title": "Combo Enders",
+      "combos": [
+        "light normals > 236 MK",
+        "2 MP / 2 MK / 5 HP > 236 HK",
+        "any cancelable normal > 623 MK / 623 HK",
+        "5 HP > 623 [ HK ]",
+        "4 MP / 4 MP ~ HK > 8 , j. MP > j. 214 K / KK",
+        "2 MP / 2 MK > 214 LP",
+        "5 HP > 214 LP / MP"
+      ]
+    }
+  ],
+  "source": ["https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Combos"]
+}

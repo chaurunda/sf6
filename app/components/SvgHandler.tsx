@@ -8,7 +8,13 @@ type SvgHandlerProps = {
 const SvgHandler: FC<SvgHandlerProps> = async ({ list }) => {
   const comboArray = list.split(" ")
 
-  return <>{comboArray.map((combo) => getSVG(combo))}</>
+  return (
+    <>
+      {comboArray.map((combo, index) => (
+        <span key={index}>{getSVG(combo)}</span>
+      ))}
+    </>
+  )
 }
 
 export default SvgHandler
