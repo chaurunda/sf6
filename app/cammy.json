@@ -29,10 +29,14 @@
         "2 MP / 2 MK / 5 HP > 236 HK",
         "any cancelable normal > 623 MK / 623 HK",
         "5 HP > 623 [ HK ]",
-        "4 MP / 4 MP ~ HK > 8 , j. MP > j. 214 K / KK",
+        "4 MP / 4 MP ~ HK > 8 , MP > 214 K / KK",
         "2 MP / 2 MK > 214 LP",
         "5 HP > 214 LP / MP"
       ]
+    },
+    {
+      "title": "Combos",
+      "combos": ["j. HP / j. HK , 4 MP ~ HK > 8 , MP > 214 K / KK"]
     }
   ],
   "source": ["https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Combos"]
