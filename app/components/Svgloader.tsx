@@ -8,14 +8,13 @@ type SvgloaderProps = {
 }
 
 const Svgloader: FC<SvgloaderProps> = ({ combos }) => {
-  console.log(combos)
   return (
     <div>
       {combos.hit.map((combo, index) => {
         return (
           <div key={index}>
             <h2 className="mb-3 text-text-white">{combo.title}</h2>
-            <div className="grid-cols-4 grid gap-2.5 mb-10">
+            <div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-4 grid gap-2.5 mb-10">
               {combo.combos.map((list, comboIndex) => {
                 return (
                   <ComboBox key={comboIndex}>
@@ -33,7 +32,9 @@ const Svgloader: FC<SvgloaderProps> = ({ combos }) => {
           <ul>
             {combos.source.map((source, index) => (
               <li key={index}>
-                <a href={source}>- {source}</a>
+                <a href={source} className="text-wrap break-words">
+                  - {source}
+                </a>
               </li>
             ))}
           </ul>

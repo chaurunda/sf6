@@ -13,7 +13,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className={roboto.className}>
-        <div className="min-h-screen p-24">{children}</div>
+        <div className="min-h-screen p-4 md:p-10 lg:p-24">{children}</div>
 
         <p className="text-center underline mb-8">
           <a href="https://github.com/chaurunda">Made by Chaurunda</a>
