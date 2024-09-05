@@ -1,9 +1,7 @@
 import { FC } from "react"
 import QCFSVG from "./SVG/QCF.svg"
 
-type QCFProps = {}
-
-const QCF: FC<QCFProps> = ({}) => {
+const QCF: FC = ({}) => {
   return <QCFSVG />
 }
 

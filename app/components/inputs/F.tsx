@@ -1,9 +1,7 @@
 import { FC } from "react"
 import FSVG from "./SVG/F.svg"
 
-type FProps = {}
-
-const F: FC<FProps> = ({}) => {
+const F: FC = ({}) => {
   return <FSVG className="text-white fill-current" />
 }
 
