@@ -1,9 +1,7 @@
 import { FC } from "react"
 import PPPSVG from "./SVG/PPP.svg"
 
-type PPPProps = {}
-
-const PPP: FC<PPPProps> = ({}) => {
+const PPP: FC = ({}) => {
   return <PPPSVG className="text-white fill-current" />
 }
 

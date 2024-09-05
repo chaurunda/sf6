@@ -1,9 +1,7 @@
 import { FC } from "react"
 import DSVG from "./SVG/D.svg"
 
-type DProps = {}
-
-const D: FC<DProps> = ({}) => {
+const D: FC = ({}) => {
   return <DSVG className="text-white fill-current" />
 }
 

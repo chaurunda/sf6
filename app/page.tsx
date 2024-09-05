@@ -1,6 +1,3 @@
-import Image from "next/image"
-import Svgloader from "./components/Svgloader"
-
 export default function Home() {
   const characters = ["juri", "cammy"]
   const background: { [key: string]: string } = {

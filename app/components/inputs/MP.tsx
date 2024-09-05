@@ -1,8 +1,7 @@
 import { FC } from "react"
 import P from "./base/P"
-type MPProps = {}
 
-const MP: FC<MPProps> = () => {
+const MP: FC = () => {
   return <P type="text-medium fill-current" />
 }
 

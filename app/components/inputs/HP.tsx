@@ -1,8 +1,7 @@
 import { FC } from "react"
 import P from "./base/P"
-type HPProps = {}
 
-const HP: FC<HPProps> = () => {
+const HP: FC = () => {
   return <P type="text-heavy fill-current" />
 }
 

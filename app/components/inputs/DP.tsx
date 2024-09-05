@@ -1,9 +1,7 @@
 import { FC } from "react"
 import DPSVG from "./SVG/DP.svg"
 
-type DPProps = {}
-
-const DP: FC<DPProps> = ({}) => {
+const DP: FC = ({}) => {
   return <DPSVG />
 }
 

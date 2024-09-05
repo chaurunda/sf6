@@ -1,9 +1,7 @@
 import { FC } from "react"
 import DISVG from "./SVG/DI.svg"
 
-type DIProps = {}
-
-const DI: FC<DIProps> = ({}) => {
+const DI: FC = ({}) => {
   return <DISVG className="text-white fill-current" />
 }
 

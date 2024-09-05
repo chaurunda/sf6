@@ -1,9 +1,7 @@
 import { FC } from "react"
 import BSVG from "./SVG/U.svg"
 
-type UProps = {}
-
-const U: FC<UProps> = ({}) => {
+const U: FC = ({}) => {
   return <BSVG className="text-white fill-current" />
 }
 

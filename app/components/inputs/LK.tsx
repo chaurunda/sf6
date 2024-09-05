@@ -1,9 +1,7 @@
 import { FC } from "react"
 import K from "./base/K"
 
-type LKProps = {}
-
-const LK: FC<LKProps> = () => {
+const LK: FC = () => {
   return <K type="text-light fill-current" />
 }
 

@@ -1,9 +1,7 @@
 import { FC } from "react"
 import KKSVG from "./SVG/KK.svg"
 
-type KKProps = {}
-
-const KK: FC<KKProps> = ({}) => {
+const KK: FC = ({}) => {
   return <KKSVG className="text-white fill-current" />
 }
 
