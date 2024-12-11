@@ -5,7 +5,7 @@ type ComboBoxProps = {
 }
 
 const ComboBox: FC<ComboBoxProps> = ({ children }) => {
-  return <div className="mb-3 rounded-lg p-2.5 flex w-full bg-lightGrey flex-wrap">{children}</div>
+  return <div className="mb-3 rounded-lg p-4 flex w-full bg-lightGrey flex-wrap">{children}</div>
 }
 
 export default ComboBox
