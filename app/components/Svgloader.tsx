@@ -15,13 +15,11 @@ const Svgloader: FC<SvgloaderProps> = ({ combos }) => {
           <div key={index}>
             <h2 className="mb-3 text-text-white">{combo.title}</h2>
             <div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-4 grid gap-2.5 mb-10">
-              {combo.combos.map((list, comboIndex) => {
-                return (
-                  <ComboBox key={comboIndex}>
-                    <SvgHandler list={list}></SvgHandler>
-                  </ComboBox>
-                )
-              })}
+              {combo.combos.map((list, comboIndex) => (
+                <ComboBox key={comboIndex}>
+                  <SvgHandler list={list}></SvgHandler>
+                </ComboBox>
+              ))}
             </div>
           </div>
         )
