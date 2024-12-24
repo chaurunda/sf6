@@ -1,4 +1,3 @@
-"use server"
 import B from "../components/inputs/B"
 import D from "../components/inputs/D"
 import DI from "../components/inputs/DI"
@@ -21,10 +20,10 @@ import QCF from "../components/inputs/QCF"
 import U from "../components/inputs/U"
 import K from "../components/inputs/base/K"
 import P from "../components/inputs/base/P"
+import CustomInput from "../components/inputs/CustomInput"
 
-export async function getSVG(combo: string) {
-  "use server"
-  switch (combo) {
+export function getSVG(combo: string) {
+  switch (combo.toUpperCase()) {
     case "B":
     case "4":
       return <B />
@@ -79,6 +78,12 @@ export async function getSVG(combo: string) {
       return <K />
     case "P":
       return <P />
+    case "PC":
+      return <CustomInput className="bg-punishCounter">PC</CustomInput>
+    case "DRC":
+      return <CustomInput className="bg-driveRush">DRC</CustomInput>
+    case "CH":
+      return <CustomInput className="bg-yellow-200">CH</CustomInput>
     case "5":
       return ""
     default:

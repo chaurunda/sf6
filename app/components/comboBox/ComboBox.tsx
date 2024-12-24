@@ -1,11 +1,11 @@
-import { FC } from "react"
+import { FC, ReactNode } from "react"
 
 type ComboBoxProps = {
-  children: React.ReactNode
+  children: ReactNode
 }
 
 const ComboBox: FC<ComboBoxProps> = ({ children }) => {
-  return <div className="mb-3 rounded-lg p-4 flex w-full bg-lightGrey flex-wrap">{children}</div>
+  return <div className="mb-3 rounded-lg p-4 w-full bg-lightGrey">{children}</div>
 }
 
 export default ComboBox

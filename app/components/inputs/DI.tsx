@@ -1,8 +1,8 @@
-import { FC } from "react"
+import { FC, ReactElement } from "react"
 
-const DI: FC = ({}) => {
+const DI: FC = () => {
   return (
-    <div className="text-white fill-current">
+    <div className="text-driveImpact fill-current">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="33"
