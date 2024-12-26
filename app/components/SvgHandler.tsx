@@ -20,7 +20,7 @@ const SvgHandler: FC<SvgHandlerProps> = ({ list }) => {
           <span key={index}>{getSVG(combo)}</span>
         ))}
       </button>
-      {isOpen && comment && <p className="mt-4">{comment}</p>}
+      {isOpen && comment && <p className="mt-4 font-light font-sans">{comment}</p>}
     </>
   )
 }
