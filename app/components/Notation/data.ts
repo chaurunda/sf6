@@ -1,4 +1,9 @@
-export const notations = [
+type notationType = {
+  notation: string
+  description: string
+}
+
+export const notations: notationType[] = [
   { notation: ">", description: "Cancel the previous move to the following move." },
   { notation: "~", description: "Chain/Cancel the previous move into a followup." },
   {
@@ -11,6 +16,15 @@ export const notations = [
     notation: "P or K",
     description:
       "Any Punch or Any Kick (when button strength does not matter) PP or KK represents any two punches/kicks.",
+  },
+  { notation: "DRC", description: "Drive Rush Cancel" },
+  { notation: "PDR", description: "Parry Drive Rush. Raw drive rush" },
+  { notation: "PC", description: "Punish Counter" },
+  { notation: "CH", description: "Counter Hit" },
+  {
+    notation: "!",
+    description:
+      "Indicates that the special move uses a fireball stock (i.e. 236MK! is Ankensatsu enhanced with a stock)",
   },
   { notation: "X/Y", description: "Do either X move or Y move." },
   { notation: "[X]", description: "Hold the button input" },

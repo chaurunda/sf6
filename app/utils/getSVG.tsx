@@ -82,6 +82,8 @@ export function getSVG(combo: string) {
       return <CustomInput className="bg-punishCounter">PC</CustomInput>
     case "DRC":
       return <CustomInput className="bg-driveRush">DRC</CustomInput>
+    case "PDR":
+      return <CustomInput className="bg-driveRush">PDR</CustomInput>
     case "CH":
       return <CustomInput className="bg-yellow-200">CH</CustomInput>
     case "5":

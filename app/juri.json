@@ -28,7 +28,7 @@
           "comment": "Optimal DI combo for no meter with a stock and decent oki. Alternatively, for slightly more damage you can orward dash into 2hp > 214hk, 623hp but be wary of this timing as its much tighter on the juggle."
         },
         {
-          "combo": "DRC 5 mp , 2 hp > 214 hk , 623 mp",
+          "combo": "DRC 5 mp , 2 hp > 214 hk , 623 hp",
           "comment": "BnB for extending your combos, any button aside from lights can drive rush cancel into this route. Dash forward and do a very small walk to get oki (gets meaty 5mp or throw- no setups, get a feel for the timing!)."
         },
         {
@@ -67,7 +67,11 @@
     },
     {
       "title": "DRIVE IMPACT",
-      "combos": []
+      "combos": [
+        {
+          "combo": "(need 1 stock) 236 lk , PDR  mp , 2 HP ~ 214 HK > 623 HP"
+        }
+      ]
     },
     {
       "title": "PUNISH COUNTER",
