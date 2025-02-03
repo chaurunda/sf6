@@ -1,7 +1,7 @@
 import { FC } from "react"
 import ComboBox from "./comboBox/ComboBox"
 import SvgHandler from "./SvgHandler"
-import { comboListType } from "../utils/types"
+import { comboListType } from "@/types"
 
 type SvgloaderProps = {
   combos: comboListType
