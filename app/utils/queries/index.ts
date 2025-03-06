@@ -20,3 +20,7 @@ const computeFormData = (data: AddFormData): FieldBody => {
     source: data.source,
   }
 }
+
+export const getCharacterData = (id: string) => {
+  return fetch(`http://localhost:3001/data/${id}`)
+}
