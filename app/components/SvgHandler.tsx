@@ -1,7 +1,7 @@
 "use client"
 import { FC, useState } from "react"
 import { getSVG } from "../utils/getSVG"
-import { combo } from "../utils/types"
+import { combo } from "@/types"
 
 type SvgHandlerProps = {
   list: combo
