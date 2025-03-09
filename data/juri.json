@@ -1,1 +1,100 @@
-{}
+{
+  "hit": [
+    {
+      "title": "BnB",
+      "combos": [
+        {
+          "combo": "D LK , D LP , D LP > QCB MK"
+        },
+        {
+          "combo": "(AIR) HK , MP , D MP > QCB MK"
+        },
+        {
+          "combo": "PC DI , MP , MP > QCB MK (midscreen)"
+        },
+        {
+          "combo": "DI , HP > QCB HK , DP HP (corner)"
+        },
+        {
+          "combo": "2 lp , 2 lp , 2 lp > 214 mk",
+          "comment": "Very basic light confirm, can end in 214mk for +1 stock and good oki. You can also end in light/heavy DP for slightly more damage but no stock. Juri's light chains automatically frametrap, so in pressure be sure to mix in throws as well to bait your opponent into mashing on your jabs to give you a combo."
+        },
+        {
+          "combo": "5 mp , 2 mp > 214 mk",
+          "comment": "Basic pressure string and pressure confirm. Can easily be confirmed after 5mp to lead into meterless damage and good oki. This string is also generally safe on block but will whiff if the opponent blocks standing instead of crouching. (If they continue this, consider low pressure with lights/2MK). For oki off of 214mk, midscreen forward dash and do a very small walk forward to get a meaty 5mp or throw. In the corner, you can whiff 214lk for a stock and +3, or whiff 2mk for +8 for a perfect meaty 5mp."
+        },
+        {
+          "combo": "PC DI 5 hp > 214 hk , 623 hp",
+          "comment": "Optimal DI combo for no meter with a stock and decent oki. Alternatively, for slightly more damage you can orward dash into 2hp > 214hk, 623hp but be wary of this timing as its much tighter on the juggle."
+        },
+        {
+          "combo": "DRC 5 mp , 2 hp > 214 hk , 623 hp",
+          "comment": "BnB for extending your combos, any button aside from lights can drive rush cancel into this route. Dash forward and do a very small walk to get oki (gets meaty 5mp or throw- no setups, get a feel for the timing!)."
+        },
+        {
+          "combo": "5 hp > 214 hk , lvl 1 super",
+          "comment": "Another BnB for extending your combos. Compared to the above combo, this one has slightly higher damage and super meter gain but midscreen even using light or medium DP requires you to drive rush for oki. I recommend only using DP enders against cornered opponents, or if you can route into the DP without using drive rush cancel because spending 3 bars to drive rush cancel and then another bar to drive rush for oki is too much meter spent!"
+        },
+        {
+          "combo": "5 mp , 2 mp > 236 hk ! > lvl 3 super",
+          "comment": "236hk! is your highest damage special move and generally preferred if you plan to go into level 3. The exclamation mark means that you perform 236hk while you have a stock available for the enhanced version."
+        },
+        {
+          "combo": "j. hk , 2 hp > 214 hk , 623 hp",
+          "comment": "Jump-in BnB. Note if you have a normal hit at the very tip of the j.hk hitbox, this wont connect. But otherwise in 99% of scenarios this will work great. If you arent confident determining that, 5mp 2mp will work 100% of the time. 5hp can also be substituted if you are too far away for 2hp."
+        },
+        {
+          "combo": "CH 2 mp , 2 mp > 214 mk",
+          "comment": "Important to know that not only 5mp has meterless conversions, but also 2mp. 2mp is a great button for checking drive rush or trying to mash out of pressure, and on hit you can easily confirm into another 2mp. Bonus: At point blank, the second 2mp can also link into 5lk for a combo i.e. 2mp, 2mp, 5lk > 623hp"
+        },
+        {
+          "combo": "... > DRC > 2 hp , 5 mp ~ 4 hp ~ hp , (Level 1/Level 2/Level 3)",
+          "comment": "New route for Season 2- ending in target combo is actually a pretty substantial buff thanks for the high meter gain that it provides, building almost a quarter of a super bar in the two hits of the target combo alone. For level 1 super, the target combo route is more optimal than all 0, 1, and 2 stock routes. 3 stock 236hk~lk~mk ender is still more damage. For level 3 super, the target combo route is only optimal with 0 stocks. 236hk! ender is too much damage."
+        }
+      ]
+    },
+    {
+      "title": "LIGHTS",
+      "combos": []
+    },
+    {
+      "title": "MEDIUMS",
+      "combos": []
+    },
+    {
+      "title": "HEAVIES",
+      "combos": []
+    },
+    {
+      "title": "DRIVE IMPACT",
+      "combos": [
+        {
+          "combo": "(need 1 stock) 236 lk , PDR  mp , 2 HP ~ 214 HK > 623 HP"
+        }
+      ]
+    },
+    {
+      "title": "PUNISH COUNTER",
+      "combos": []
+    },
+    {
+      "title": "DRIVE RUSH",
+      "combos": []
+    },
+    {
+      "title": "DIVEKICK",
+      "combos": []
+    },
+    {
+      "title": "FENG SHUI ENGINE",
+      "combos": []
+    },
+    {
+      "title": "CORNER",
+      "combos": []
+    }
+  ],
+  "source": [
+    "https://docs.google.com/spreadsheets/u/0/d/11wHImSzcVzwjrOICalU__MILmEecm1F3J3fMDHbapBE/htmlview"
+  ]
+}

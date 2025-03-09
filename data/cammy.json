@@ -1,9 +1,46 @@
 {
   "hit": [
     {
-      "title": "Other",
-      "combos": []
+      "title": "BnB",
+      "combos": [
+        { "combo": "5 LP ~ 5 LP > 236 MK" },
+        { "combo": "2 MP / 5 HP > 236 HK" },
+        { "combo": "j. HP / j. HK , 5 HP > 236 HK" },
+        { "combo": "PC DI , 5 HP > 236 HK" },
+        { "combo": "2 LK ~ 2 LP ~ 5 LP > 236 MK" },
+        { "combo": "2 HP , 2 MP > 236 HK" },
+        { "combo": "j. HP / j. HK , 2 HP , 2 MP > 236 HK" }
+      ]
+    },
+    {
+      "title": "Opening Strings",
+      "combos": [
+        { "combo": "any two chainable lights ~ 5 LP > Combo Ender" },
+        { "combo": "any two chainable lights , 5 LK > Combo Ender" },
+        { "combo": "5 LP / 5 MP , 4 MP ~ HK > ..." },
+        { "combo": "5 MP , 5 LK > Combo Ender" },
+        { "combo": "2 HP , 2 MP > Combo Ender" }
+      ]
+    },
+    {
+      "title": "Combo Enders",
+      "combos": [
+        { "combo": "light normals > 236 MK" },
+        { "combo": "2 MP / 2 MK / 5 HP > 236 HK" },
+        { "combo": "any cancelable normal > 623 MK / 623 HK" },
+        { "combo": "5 HP > 623 [ HK ]" },
+        { "combo": "4 MP / 4 MP ~ HK > 8 , MP > 214 K / KK" },
+        { "combo": "2 MP / 2 MK > 214 LP" },
+        { "combo": "5 HP > 214 LP / MP" }
+      ]
+    },
+    {
+      "title": "Combos",
+      "combos": [{ "combo": "j. HP / j. HK , 4 MP ~ HK > 8 , MP > 214 K / KK" }]
     }
   ],
-  "source": []
+  "source": [
+    "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Combos",
+    "https://wiki.supercombo.gg/w/Street_Fighter_6/Juri/Combos"
+  ]
 }

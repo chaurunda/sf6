@@ -2,6 +2,7 @@ import { NextApiRequest, NextApiResponse } from "next"
 import fs from "fs"
 import { enabledFileName, filepath, hasAllFields } from "@/utils"
 import { charactersData } from "@/types"
+import path from "path"
 type ResponseData = {
   message: string
 }
@@ -25,63 +26,43 @@ const getCharacterData = (characterId: string, res: NextApiResponse<ResponseData
   return res.send(JSON.parse(filedata))
 }
 
-const setCharacterData = (
+const setCharacterData = async (
   characterId: string,
   req: NextApiRequest,
   res: NextApiResponse<ResponseData>,
 ) => {
-  const fileName = enabledFileName(characterId as string)
-  if (!fileName) {
-    return res.status(404).send({ message: "Not Found" })
-  }
-  const body = req.body
-  if (!body) {
-    res.status(401).send({ message: "Missing body" })
-  }
-  const arefieldsmissing = hasAllFields(body)
-  if (!arefieldsmissing) {
-    res.status(401).send({ message: "A field is missing" })
-    return
-  }
+  const filePath = path.join(process.cwd(), "data", `${characterId}.json`)
+  const newData = req.body
 
-  const filedata = fs.readFileSync(filepath(fileName), "utf-8")
-  const existingData = JSON.parse(filedata) as charactersData
+  try {
+    // Lire le fichier JSON existant
+    const fileContent = await fs.readFileSync(filePath, "utf8")
+    let characterData: charactersData = JSON.parse(fileContent)
 
-  const newData = existingData.hit.map((h) => {
-    if (body.title && h.title === body.title) {
-      return {
-        title: h.title,
-        combos: [
-          ...h.combos,
-          {
-            combo: body.combo,
-            comment: body.comment,
-          },
-        ],
-      }
+    // Trouver ou créer la section
+    let section = characterData.hit.find((s) => s.title === newData.title)
+    if (!section) {
+      section = { title: newData.title, combos: [] }
+      characterData.hit.push(section)
     }
-    return {
-      title: body.title || "Other",
-      combos: [
-        ...h.combos,
-        {
-          combo: body.combo,
-          comment: body.comment,
-        },
-      ],
+
+    // Ajouter le nouveau combo
+    section.combos.push({
+      combo: newData.combo,
+      comment: newData.comment,
+    })
+
+    // Ajouter la source si elle n'est pas vide
+    if (newData.source && !characterData.source.includes(newData.source)) {
+      characterData.source.push(newData.source)
     }
-  })
 
-  const data: charactersData = {
-    hit: newData,
-    source: existingData.source,
+    // Écrire les données mises à jour dans le fichier
+    await fs.writeFileSync(filePath, JSON.stringify(characterData, null, 2))
+
+    return res.status(201).send({ message: "Données mises à jour avec succès" })
+  } catch (error) {
+    console.error("Erreur lors de la mise à jour des données:", error)
+    return res.status(500).send({ message: "Erreur lors de la mise à jour des données" })
   }
-
-  if (body.source) {
-    data.source.push(body.source)
-  }
-
-  fs.writeFileSync(filepath(fileName), JSON.stringify(data))
-
-  res.status(201).send({ message: "Ok" })
 }

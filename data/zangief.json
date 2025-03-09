@@ -1,1 +1,9 @@
-{ "hit": [{ "title": "Other", "combos": [{ "combo": "tost" }] }], "source": [] }
+{
+  "hit": [
+    {
+      "title": "Other",
+      "combos": []
+    }
+  ],
+  "source": []
+}

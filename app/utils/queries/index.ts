@@ -1,8 +1,8 @@
 import { AddFormData } from "@/app/add/page"
-import { FieldBody } from "@/back/src/types"
+import { comboListType, FieldBody } from "@/types"
 
 export const postForm = (payload: AddFormData) => {
-  return fetch(`http://localhost:3001/data/${payload.characterName}`, {
+  return fetch(`/api/${payload.characterName}`, {
     method: "post",
     headers: {
       "Content-Type": "application/json",
@@ -21,6 +21,8 @@ const computeFormData = (data: AddFormData): FieldBody => {
   }
 }
 
-export const getCharacterData = (id: string) => {
-  return fetch(`http://localhost:3001/data/${id}`)
+export const getCharacterData = async (id: string): Promise<comboListType> => {
+  const response = await fetch(`/api/${id}`)
+
+  return await response.json()
 }
