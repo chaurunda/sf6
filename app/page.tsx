@@ -1,33 +1,7 @@
+import { characters } from "@/utils"
 import Link from "next/link"
 
 export default function Home() {
-  const characters = [
-    "aki",
-    "akuma",
-    "blanka",
-    "cammy",
-    "chunli",
-    "deejay",
-    "dhalsim",
-    "ed",
-    "ehonda",
-    "guile",
-    "jamie",
-    "jp",
-    "juri",
-    "ken",
-    "kimberly",
-    "lily",
-    "luke",
-    "mai",
-    "mbison",
-    "manon",
-    "marisa",
-    "rashid",
-    "ryu",
-    "terry",
-    "zangief",
-  ]
   const background: { [key: string]: string } = {
     aki: "bg-[url('/aki.png')] hover:bg-[url('/aki_over.png')]",
     akuma: "bg-[url('/akuma.png')] hover:bg-[url('/akuma_over.png')]",
