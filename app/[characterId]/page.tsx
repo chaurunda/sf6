@@ -3,7 +3,6 @@ import Svgloader from "../components/Svgloader"
 import PageLayout from "../PageLayout/index"
 import { useQuery } from "@tanstack/react-query"
 import { getCharacterData } from "../utils/queries"
-import { comboListType } from "@/types"
 import { useParams } from "next/navigation"
 
 const Page = () => {
@@ -12,7 +11,7 @@ const Page = () => {
   const characterName = router ? (router.characterId as string) : ""
 
   const combo = useQuery({
-    queryKey: ["todos"],
+    queryKey: [characterName],
     queryFn: () => getCharacterData(router ? (router.characterId as string) : ""),
   })
 

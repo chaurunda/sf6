@@ -1,4 +1,5 @@
 body {
   color: rgb(var(--foreground-rgb));
-  background-color: var(--darkGrey);
+  background: rgb(67, 18, 204);
+  background: linear-gradient(180deg, rgba(67, 18, 204, 1) 0%, rgba(157, 43, 115, 1) 100%);
 }

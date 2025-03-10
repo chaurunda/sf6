@@ -68,7 +68,7 @@ export default function Home() {
         {characters.map((character) => (
           <li className="pb-5" key={character}>
             <a
-              className={`${background[character]} w-[192px] h-[208px] block bg-cover`}
+              className={`${background[character]} w-[175px] h-[189px] block bg-cover`}
               href={`/${character}`}
             ></a>
           </li>
