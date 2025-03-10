@@ -10,7 +10,7 @@ const LabelFor = ({ name, title, children }: LabelForProps) => {
   return (
     <div className="p-2">
       <label htmlFor={name}>{title}</label>
-      <div>{children}</div>
+      {children}
     </div>
   )
 }
