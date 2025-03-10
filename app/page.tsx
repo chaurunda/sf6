@@ -33,9 +33,12 @@ export default function Home() {
     <main>
       <h1 className="text-center text-2xl mb-10">Street Fighter Combo list</h1>
       <p className="mb-10">
-        {/* <Link href="/add" className="border-neutral-100 border rounded p-2">
+        <Link
+          href="/add"
+          className="rounded-md border bg-white border-slate-300 py-2 px-4 mt-3 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+        >
           Add new Combo
-        </Link> */}
+        </Link>
       </p>
 
       <ul className="grid-cols-2 grid md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8">
