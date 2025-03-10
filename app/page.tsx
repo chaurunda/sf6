@@ -64,7 +64,7 @@ export default function Home() {
         </Link> */}
       </p>
 
-      <ul className="grid-cols-2 grid lg:grid-cols-4">
+      <ul className="grid-cols-2 grid md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8">
         {characters.map((character) => (
           <li className="pb-5" key={character}>
             <a
