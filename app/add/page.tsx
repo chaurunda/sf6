@@ -23,11 +23,13 @@ export type AddFormData = {
 
 const Add = () => {
   const [writtenCombo, setWrittenCombo] = useState({ combo: "" })
-  const { mutate } = useMutation({
+  const { mutate, isPending } = useMutation({
     mutationFn: (payload: AddFormData) => postForm(payload),
   })
 
   const onSubmit = (data: AddFormData) => {
+    methods.reset()
+    setWrittenCombo({ combo: "" })
     mutate(data)
   }
 
@@ -83,6 +85,7 @@ const Add = () => {
             <button
               className="rounded-md border bg-white border-slate-300 py-2 px-4 mt-3 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
               type="submit"
+              disabled={isPending}
             >
               Envoyer
             </button>
