@@ -9,15 +9,16 @@ import { useParams } from "next/navigation"
 const Page = () => {
   const router = useParams()
 
+  const characterName = router ? (router.characterId as string) : ""
+
   const combo = useQuery({
     queryKey: ["todos"],
     queryFn: () => getCharacterData(router ? (router.characterId as string) : ""),
   })
 
-  console.log(combo.data)
   return (
     <>
-      <PageLayout name="Cammy">
+      <PageLayout name={characterName.toUpperCase()}>
         <>
           {!combo.data && <p>Loading</p>}
           {combo.data && <Svgloader combos={combo.data}></Svgloader>}
