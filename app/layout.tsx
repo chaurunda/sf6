@@ -9,7 +9,11 @@ export const metadata = {
   title: "Street fighter combo list",
   description: "A list of combo in Street Fighter 6",
 }
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="en">
       <body className={roboto.className}>

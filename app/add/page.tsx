@@ -62,7 +62,10 @@ const Add = () => {
     <PageLayout name="Add Combo">
       <div className="flex gap-4">
         <FormProvider {...methods}>
-          <form onSubmit={methods.handleSubmit(onSubmit, onInvalid)} className="w-full">
+          <form
+            onSubmit={methods.handleSubmit(onSubmit, onInvalid)}
+            className="w-full"
+          >
             <LabelFor title="Character Name" name="characterName">
               <SelectInput name="characterName"></SelectInput>
             </LabelFor>

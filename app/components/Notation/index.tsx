@@ -11,7 +11,9 @@ const Notation = ({}: NotationProps) => {
   return (
     <div className="my-10 bg-slate-800 p-2 rounded-lg">
       <h2>
-        <button onClick={() => setIsOpen(!isOpen)}>Notation {isOpen ? "↑" : "↓"}</button>
+        <button onClick={() => setIsOpen(!isOpen)}>
+          Notation {isOpen ? "↑" : "↓"}
+        </button>
       </h2>
       <table className={`table-fixed mt-3 ${isOpen ? "" : "hidden"}`}>
         <thead>

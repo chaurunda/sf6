@@ -7,7 +7,10 @@ type ResponseData = {
   message: string
 }
 
-export default function handler(req: NextApiRequest, res: NextApiResponse<ResponseData>) {
+export default function handler(
+  req: NextApiRequest,
+  res: NextApiResponse<ResponseData>,
+) {
   if (req.method == "GET") {
     return getCharacterData(req.query.characterId as string, res)
   }
@@ -17,7 +20,10 @@ export default function handler(req: NextApiRequest, res: NextApiResponse<Respon
   return res.status(405).send({ message: "Method Not Allowed" })
 }
 
-const getCharacterData = (characterId: string, res: NextApiResponse<ResponseData>) => {
+const getCharacterData = (
+  characterId: string,
+  res: NextApiResponse<ResponseData>,
+) => {
   const fileName = enabledFileName(characterId as string)
   if (!fileName) {
     return res.status(404).send({ message: "Not Found" })
@@ -63,6 +69,8 @@ const setCharacterData = async (
     return res.status(201).send({ message: "Données mises à jour avec succès" })
   } catch (error) {
     console.error("Erreur lors de la mise à jour des données:", error)
-    return res.status(500).send({ message: "Erreur lors de la mise à jour des données" })
+    return res
+      .status(500)
+      .send({ message: "Erreur lors de la mise à jour des données" })
   }
 }

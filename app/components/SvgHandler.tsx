@@ -15,12 +15,17 @@ const SvgHandler: FC<SvgHandlerProps> = ({ list }) => {
 
   return (
     <>
-      <button className="flex justify-center flex-wrap" onClick={() => setIsOpen(!isOpen)}>
+      <button
+        className="flex justify-center flex-wrap"
+        onClick={() => setIsOpen(!isOpen)}
+      >
         {comboArray.map((combo, index) => (
           <span key={index}>{getSVG(combo)}</span>
         ))}
       </button>
-      {isOpen && comment && <p className="mt-4 font-light font-sans">{comment}</p>}
+      {isOpen && comment && (
+        <p className="mt-4 font-light font-sans">{comment}</p>
+      )}
     </>
   )
 }

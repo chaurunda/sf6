@@ -4,14 +4,23 @@ type notationType = {
 }
 
 export const notations: notationType[] = [
-  { notation: ">", description: "Cancel the previous move to the following move." },
-  { notation: "~", description: "Chain/Cancel the previous move into a followup." },
+  {
+    notation: ">",
+    description: "Cancel the previous move to the following move.",
+  },
+  {
+    notation: "~",
+    description: "Chain/Cancel the previous move into a followup.",
+  },
   {
     notation: ",",
     description:
       "Link the previous move to the following move. e.g. 5MP, 2MP (requires manual timing)",
   },
-  { notation: "j.X", description: "Jumping action; for Neutral Jump, use 8j.X" },
+  {
+    notation: "j.X",
+    description: "Jumping action; for Neutral Jump, use 8j.X",
+  },
   {
     notation: "P or K",
     description:
@@ -34,7 +43,10 @@ export const notations: notationType[] = [
     description:
       "Repeat 'Y' input 'N' number of times. A sequence of multiple inputs will be bundled into \"{}\".",
   },
-  { notation: "Y > DR", description: "Button Y cancelled into Drive Rush (3-bar version)" },
+  {
+    notation: "Y > DR",
+    description: "Button Y cancelled into Drive Rush (3-bar version)",
+  },
   {
     notation: "DR~Y",
     description:

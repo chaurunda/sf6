@@ -12,7 +12,8 @@ const Page = () => {
 
   const combo = useQuery({
     queryKey: [characterName],
-    queryFn: () => getCharacterData(router ? (router.characterId as string) : ""),
+    queryFn: () =>
+      getCharacterData(router ? (router.characterId as string) : ""),
   })
 
   return (

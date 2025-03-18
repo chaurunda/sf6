@@ -3,7 +3,13 @@ import { FC } from "react"
 const B: FC = ({}) => {
   return (
     <div className="text-white co-text-white fill-current">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        role="img"
+      >
         <title>Left</title>
         <line
           x1="19"
