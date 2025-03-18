@@ -46,7 +46,9 @@ const setCharacterData = async (
     let characterData: charactersData = JSON.parse(fileContent)
 
     // Trouver ou créer la section
-    let section = characterData.hit.find((s) => s.title === newData.title)
+    let section = characterData.hit.find(
+      (s) => s.title.toLowerCase() === newData.title.toLowerCase(),
+    )
     if (!section) {
       section = { title: newData.title, combos: [] }
       characterData.hit.push(section)
