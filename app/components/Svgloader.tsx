@@ -27,15 +27,15 @@ const Svgloader: FC<SvgloaderProps> = ({ combos }) => {
       {combos.source.length > 0 && (
         <>
           <h2>Sources :</h2>
-          <ul>
+          <ul className="list-disc">
             {combos.source.map((source, index) => (
-              <li key={index}>
+              <li key={index} className="ml-4">
                 <a
                   href={source}
-                  className="text-wrap break-words"
+                  className="text-wrap break-words underline"
                   target="_blank"
                 >
-                  - {source}
+                  {source}
                 </a>
               </li>
             ))}
